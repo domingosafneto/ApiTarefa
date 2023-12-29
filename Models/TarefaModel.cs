@@ -1,4 +1,6 @@
-﻿namespace ApiTarefas.Models
+﻿using ApiTarefas.Enums;
+
+namespace ApiTarefas.Models
 {
     public class TarefaModel
     {
@@ -8,6 +10,6 @@
 
         public string? Descricao { get; set; }
 
-        public int Status { get; set; } // criação posterior de um enum
+        public StatusTarefa Status { get; set; } 
     }
 }

@@ -14,6 +14,5 @@ namespace ApiTarefas.Repositorios.Interfaces
 
         Task<bool> Apagar(int id);
 
-
     }
 }

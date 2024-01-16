@@ -1,4 +1,5 @@
-﻿using ApiTarefas.Models;
+﻿using ApiTarefas.Data.Map;
+using ApiTarefas.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace ApiTarefas.Data
@@ -16,6 +17,9 @@ namespace ApiTarefas.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.ApplyConfiguration(new UsuarioMap());
+            modelBuilder.ApplyConfiguration(new TarefaMap());
+
             base.OnModelCreating(modelBuilder);
         }
     }

@@ -1,4 +1,5 @@
 using ApiTarefas.Data;
+using ApiTarefas.Repositorios;
 using ApiTarefas.Repositorios.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
@@ -22,7 +23,7 @@ namespace ApiTarefas
                 options => options.UseSqlServer(builder.Configuration.GetConnectionString("DataBase"))
                 );
 
-            builder.Services.AddScoped<IUsuarioRepositorio, IUsuarioRepositorio>();
+            builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
 
             var app = builder.Build();
 

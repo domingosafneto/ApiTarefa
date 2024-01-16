@@ -1,1 +1,1 @@
-Este exemplo ilustra um CRUD em uma Web API. Foi usado .NET 6 e o Visual Studio 2022.
+Projeto CRUD em uma Web API .NET 6 usando Visual Studio 2022.

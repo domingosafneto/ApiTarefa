@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiTarefas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f5368cc8210de0dc77086cf6dc951eb84018b59")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e78fbc7047cf3d4ed6e558ffe30802a2b97edb7e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiTarefas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiTarefas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
